@@ -1,0 +1,38 @@
+:root{
+    --color-bg: #AD8FFF;
+    --animation-duration: 2000ms;  
+    --animation-stagger: 80ms;
+    --hue: 360;
+    --delay: 0;
+    --hex: #F46A6C;
+    --size: 6vw;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+
+
+.loader {
+    position: absolute;
+    top: 55%;
+    right: 0;
+    left: calc(50% - 25px);
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #25b09b;
+    --_m: 
+        conic-gradient(#0000 10%,#000),
+        linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+}
+@keyframes l3 {to{transform: rotate(1turn)}}
+@keyframes l4 {to{clip-path: inset(0 -1ch 0 0)}}
+

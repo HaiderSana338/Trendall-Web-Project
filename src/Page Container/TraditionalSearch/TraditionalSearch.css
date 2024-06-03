@@ -1,0 +1,54 @@
+/* TraditionalSearch.css */
+
+.traditional-search-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .search-label input[type="text"] {
+    width: 200px;
+    margin-right: 10px;
+
+  }
+  
+  .search-results {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    margin-top: 0;
+  }
+  
+  .search-result-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .search-result-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .artifact-link{
+    color: white;
+  }
+  .artifact-detail{
+    padding-bottom: 40px;
+  }

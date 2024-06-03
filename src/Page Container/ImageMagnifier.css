@@ -1,0 +1,27 @@
+.img-magnifier-container {
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    height: 80vh;
+    width: auto;
+  }
+  
+  .magnifier-img {
+    width: auto;
+    height: 95%;
+  }
+  
+  .magnifier-image {
+    width: 268px; /* Adjust the size of the magnifier box */
+    height: 268px; /* Adjust the size of the magnifier box */
+    border: 3px solid rgb(251, 10, 211);
+    background-repeat: no-repeat;
+    background-size: 500% 500%; /* Increase the zoom level */
+    border-radius: 50%;
+  }
+  
+  /* Add this to hide the cursor when magnifier is active */
+  .magnifier-active {
+    cursor: none;
+  }
+  

@@ -1,0 +1,140 @@
+.white-text{
+    padding-top: 70px;
+    color: white;
+}
+h1{
+    font-size: 56px;
+    line-height: 60px;
+}
+h2{
+    font-size: 28px;
+}
+p{
+    font-size: 16px;
+}
+.AlphabetList-container{
+    margin-top: 20px;
+    background-color: aquamarine;
+    padding: 15px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.alphabetLink{
+    font-size: 18px;
+    color:black;
+    font-weight: 500;;
+}
+.alphabetHeader{
+    display: flex;
+    
+    flex-wrap:wrap
+}
+.searchListContainer{
+    background-color: white;
+}
+.letter-list{
+    display: flex;
+    flex-direction: column; 
+}
+p{
+    margin: 0;
+}
+.searchListValue{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    color: black;
+    padding-left:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.countVasesByName{
+    margin-right: 20px;
+}
+.basic-search-result-container{
+    margin-bottom: 80px;
+}
+.search-result-heading{
+    margin:20px 0;
+    font-size: 3.0vw;
+}
+.artifact-main-image{
+    max-width:100%;
+    aspect-ratio: 1 / 1;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.stacked {
+    display: grid;
+}
+/* .stacked > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+} */
+.card-object__content{
+    background: rgba(22, 22, 22, 0.509);
+    align-self: start;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    /* box-shadow: 0 2.5px 10px rbg(0 0 0 / .1); */
+    /* transform: translateY(0);
+    transition: transform linear 0.2s; */
+}
+/* .card-object:hover .card-object__content{
+    transform: translateY(100%);
+} */
+.card-object{
+    /* aspect-ratio: 1 / 1.5; */
+    margin-top: 35px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.artifact-detail{
+    margin-top: 50px;
+    display:flex;
+    gap: clamp(40px, 2vw, 150px);
+    align-items: start;
+}
+.artifact-detail__content{
+    text-align: justify;
+    flex: 2;
+    height: 100%;
+}
+.artifact-detail__image{
+    flex: 1.5;
+}
+.artifact-detail__content-p{
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: clamp(35px, 2vw, 45px);
+    letter-spacing: 1px;
+}
+.artifact-detail-heading{
+    margin: 10px 0;
+    font-size: clamp(68px, 2vw, 80px);
+    line-height: 100px;
+    background: linear-gradient(45deg, rgb(247, 30, 247), rgb(25, 188, 252));
+    -webkit-background-clip: text; /* Áp dụng gradient cho phần chữ */
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 5px;
+}
+.download-image-button{
+    background: linear-gradient(45deg, rgb(247, 30, 247), rgb(25, 188, 252));
+    border: none;
+    font-size: clamp(32px, 2vw, 60px);
+    font-weight: 600;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.navigation-section__link{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
